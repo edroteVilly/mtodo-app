@@ -10,7 +10,7 @@ export default function TaskManager() {
     localStorage.getItem("theme") === "dark" ? "dark" : "light"
   );
 
-  const API_URL = "http://localhost/todo-api-new/index.php?path=tasks";
+  const API_URL = "http://localhost/todo-api/index.php?path=tasks";
 
   useEffect(() => {
     fetch(API_URL)
